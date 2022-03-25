@@ -225,7 +225,7 @@ int main (int argc, char *argv[])
     count = 0;
     uint8_t byte;
     byte = IN.get();
-    while(!IN.eof())
+    while(count <= maxBit)
     {
         code.clear();
         while(count <= maxBit)
